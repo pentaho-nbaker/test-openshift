@@ -170,7 +170,7 @@
 			<name>Docker Nexus</name>
 			<url>http://172.17.0.3:8081/nexus/content/repositories/snapshots</url>
 		</repository>
-		repository>
+		<repository>
 		<id>pentaho-nexus</id>
 		<name>Nexus Internal</name>
 		<url>http://nexus.pentaho.org/content/groups/omni</url>
