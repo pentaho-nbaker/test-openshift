@@ -169,7 +169,6 @@
 			<id>internal.repo.snapshot</id>
 			<name>Docker Nexus</name>
 			<url>http://172.17.0.3:8081/nexus/content/repositories/snapshots</url>
-			<snapshots>true</snapshots>
 		</repository>
 	</repositories>
 </project>
