@@ -170,5 +170,58 @@
 			<name>Docker Nexus</name>
 			<url>http://172.17.0.3:8081/nexus/content/repositories/snapshots</url>
 		</repository>
+		repository>
+		<id>pentaho-nexus</id>
+		<name>Nexus Internal</name>
+		<url>http://nexus.pentaho.org/content/groups/omni</url>
+		<!--                <snapshots>-->
+		<!--                  <enabled>true</enabled>-->
+		<!--                </snapshots>-->
+
+	</repository>
+	<repository>
+		<id>pentaho-nexus-private</id>
+		<name>Nexus Private Internal</name>
+		<url>http://nexus.pentaho.org/content/repositories/private-snapshot</url>
+		<snapshots>
+			<enabled>true</enabled>
+		</snapshots>
+	</repository>
+	<repository>
+		<id>servicemix</id>
+		<name>Servicemix Repo</name>
+		<url>https://svn.apache.org/repos/asf/servicemix/m2-repo</url>
+	</repository>
+
+	<repository>
+		<id>central2</id>
+		<name>Central</name>
+		<url>http://central.maven.org/maven2</url>
+	</repository>
+
+	<repository>
+		<id>internal.repo</id>
+		<name>Docker Nexus</name>
+		<url>http://172.17.0.3:8081/nexus/content/repositories/releases</url>
+		<snapshots>
+			<enabled>true</enabled>
+		</snapshots>
+	</repository>
+	<repository>
+		<id>internal.repo.snapshots</id>
+		<name>Docker Nexus snaps</name>
+		<url>http://172.17.0.3:8081/nexus/content/repositories/snapshots</url>
+		<snapshots>
+			<enabled>true</enabled>
+		</snapshots>
+	</repository>
 	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>pentaho-nexus</id>
+			<name>Nexus Internal</name>
+			<url>http://nexus.pentaho.org/content/groups/omni</url>
+		</pluginRepository>
+	</pluginRepositories>
 </project>
