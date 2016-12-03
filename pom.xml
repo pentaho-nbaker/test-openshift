@@ -7,9 +7,9 @@
 	<artifactId>pentaho-kettle-assembly</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>karaf-assembly</packaging>
-	<parameters>
+	<properties>
 		<fabric8.version>2.2.176</fabric8.version>
-	</parameters>
+	</properties>
 
 	<dependencies>
 		<dependency>
