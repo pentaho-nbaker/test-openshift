@@ -199,22 +199,6 @@
 		<url>http://central.maven.org/maven2</url>
 	</repository>
 
-	<repository>
-		<id>internal.repo</id>
-		<name>Docker Nexus</name>
-		<url>http://172.17.0.3:8081/nexus/content/repositories/releases</url>
-		<snapshots>
-			<enabled>true</enabled>
-		</snapshots>
-	</repository>
-	<repository>
-		<id>internal.repo.snapshots</id>
-		<name>Docker Nexus snaps</name>
-		<url>http://172.17.0.3:8081/nexus/content/repositories/snapshots</url>
-		<snapshots>
-			<enabled>true</enabled>
-		</snapshots>
-	</repository>
 	</repositories>
 
 	<pluginRepositories>
